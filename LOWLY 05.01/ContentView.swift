@@ -8,6 +8,8 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
     @State private var weight = ""
     @State private var height = ""
@@ -18,6 +20,7 @@ struct ContentView: View {
     
     let genders = ["Male", "Female"]
     let activityLevels = ["Sedentary", "Lightly Active", "Moderately Active", "Very Active", "Extra Active"]
+    
     
     var body: some View {
         NavigationView {
@@ -181,3 +184,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
