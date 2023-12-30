@@ -8,8 +8,6 @@
 
 import SwiftUI
 
-
-
 struct ContentView: View {
     @State private var weight = ""
     @State private var height = ""
@@ -81,9 +79,6 @@ struct BMRResultView: View {
         return Text("Your Basal Metabolic Rate is \(bmr, specifier: "%.2f") calories/day")
     }
 }
-
-
-
 
 struct NutrientInfo: View {
     @State private var nutrientName = ""
